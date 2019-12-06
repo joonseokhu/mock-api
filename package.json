@@ -1,0 +1,17 @@
+{
+  "name": "node-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=./ nodemon server",
+    "prod": "NODE_PATH=./ pm2 start server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "moment-timezone": "^0.5.27"
+  }
+}
