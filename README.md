@@ -1,3 +1,16 @@
+## 설치/시작
+
+- 설치
+```
+npm i
+```
+- 서버시작
+```
+npm start
+```
+- 서버시작 후 접속방법
+http://127.0.0.1:3000
+
 ## endpoints
 
 | method | path       | description                           |
